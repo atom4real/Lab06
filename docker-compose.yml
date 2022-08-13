@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+    web:
+        image: "atomic132544/se331-lab06:latest"
+        ports: 
+            - 8003:80
